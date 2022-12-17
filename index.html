@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Form Validation</h1>
+    <h2 id="message"></h2> 
+    <div id="main">
+        
+    <div id="male"><img src="./male1.webp"></div>
+    <div id="container">     
+          
+        <div id="box">
+        <div><img src="./email1.png" id="mailimg"><label>Email</label></div><br><br>
+        <input type="email" id="email1" onchange="emailChange()"><br><br>
+        <div id="emailres"></div><br>
+        <div><img src="./pass.png"><label>Password</label></div><br><br>
+        <input type="password" id="pass" onchange="passChange()"><br><br>
+        <div id="passres"></div><br>
+        <button value="submit" id="btn" disabled>Submit</button>
+    </div>
+    </div>
+    </div>
+
+
+  <script src="./script.js"></script>  
+</body>
+</html>
